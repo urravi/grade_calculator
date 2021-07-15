@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Grade Calculator</title>
+  </head>
+  <body>
+    <h1 class="display-1"> <em>Student Grade Calculator</em></h1>
+    <div class="container-fluid mt-3">
+      <div class="row ">
+        <div class="col-sm-6 g-5 mb-5">
+          <img src="calculator.jpg" class="d-block w-100" alt="calculating" >
+        </div>
+        <div class="col-sm-5 mt-5">
+          <p>Please enter your marks in each subjects <br>(out of 100) </p>
+          <form>
+          <div class="mb-3">
+            <input class="form-control" id="phy" placeholder="Physics" >
+          </div>
+          <div class="mb-3">
+            <input class="form-control" id="chem" placeholder="Chemistry">
+          </div>
+          <div class="mb-3">
+            <input class="form-control" id="maths" placeholder="Mathematics">
+          </div>
+          <div class="mb-3">
+            <input class="form-control" id="eng" placeholder="English">
+          </div>
+          <div class="mb-3">
+            <input class="form-control" id="cs" placeholder="Computer Science">
+          </div>
+          <button class="btn btn-success mb-5" onclick="result()">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  <div class="report g-5">
+    <h1 class="display-3">Congrats!</h1>
+    <h1> Your Percentage is <span id="percentage"></span></h1>
+    <h1 id="extra"> <span class="display-1" id="grade">A+ </span>    Grade</h1>
+  </div>
+      
+    
+  <script src="script.js" ></script>
+
+
+  </body>
+</html>

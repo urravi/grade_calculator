@@ -1,0 +1,14 @@
+body {
+    color: beige;
+    background-color: hsl(172, 45%, 24%);
+}
+h1{
+
+    text-align: center;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+.report{
+
+    text-align: center;
+    border: 1em white;
+}
